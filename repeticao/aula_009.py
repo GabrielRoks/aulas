@@ -7,3 +7,11 @@ Caso contrário, não apresente nada.
 
 '''
 
+while True:
+    numero = float(input("Digite algum número: "))
+    if numero > 3:
+        print(numero)
+        break
+    else:
+        print(' ')
+        break
