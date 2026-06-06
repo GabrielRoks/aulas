@@ -16,5 +16,5 @@ for i in range(4):
 for i in range(1):
     print(lista)
     lista.sort()
-    print(f'O seu menor valor foi: {lista[0]}')
-    print(f'E o seu maior valor foi: {lista[-1]}')
+    print(f'O seu maior valor foi: {lista[-1]}')
+    print(f'E o seu menor valor foi: {lista[0]}')
