@@ -7,8 +7,11 @@ consumo do veículo de 12 km/l.
 """
 
 ## 
-# distancia = float(input("Digite a distância percorrida em Km: "))
+# Pede a velocidade média
 velocidade = float(input("Digite a velocidade média do seu percurso em Km/h: "))
+# pede o tempo de viagem
 tempo_gasto = float(input('Digite o tempo gasto: '))
+# calcula a distancia
 distancia = velocidade * tempo_gasto
+# imprime o resultado
 consumo = print(f'O consumo da sua viagem foi de: {distancia / 12}L.')
